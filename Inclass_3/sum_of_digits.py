@@ -1,3 +1,13 @@
+"""
+Author: Sarvesh More and Julekha Khatoon
+Date: 2024-10-4
+Description: This script defines a function to calculate the sum of the digits of a 
+positive integer. It prompts the user for input and allows them to compute the 
+sum of digits for multiple numbers until they decide to quit by typing 'q'. 
+The program includes error handling to ensure valid input and provides 
+feedback when the user enters invalid data or negative integers.
+"""
+
 # sum_of_digits.py
 
 def sum_of_digits(number):

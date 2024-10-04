@@ -1,3 +1,16 @@
+"""
+Author: Sarvesh More and Julekha Khatoon
+Date: 2024-10-4
+Description: This program combines several utility functions into a single interface 
+that allows users to interactively perform multiple tasks:
+1. Check if a number is positive.
+2. Convert between Gibibytes and Gigabytes.
+3. Calculate the sum of the digits of a positive integer.
+
+Users can navigate through the options using a menu-driven interface and can exit the program at any time. 
+The program includes input validation and error handling to ensure a smooth user experience.
+"""
+
 def is_positive(number):
     """Checks if a number is positive."""
     return number > 0
