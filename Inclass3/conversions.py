@@ -2,10 +2,6 @@
 Author: Sarvesh More and Julekha Khatoon
 Date: 2024-10-4
 Description: This script provides functions to convert between Gibibytes and Gigabytes. 
-It features a menu-driven interface that allows users to choose between converting 
-Gibibytes to Gigabytes or vice versa. The program handles user input, including 
-validating for negative numbers and invalid formats, while providing feedback 
-and the option to return to the main menu or exit the program.
 """
 # conversions.py
 
