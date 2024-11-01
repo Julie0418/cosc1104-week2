@@ -1,0 +1,6106 @@
+[
+    {
+        "name": "t4g.nano",
+        "vcpu": "2 vCPUs\u00a0for a 1h 12m burst",
+        "memory": "0.5 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "t3a.nano",
+        "vcpu": "2 vCPUs\u00a0for a 1h 12m burst",
+        "memory": "0.5 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "t3.nano",
+        "vcpu": "2 vCPUs\u00a0for a 1h 12m burst",
+        "memory": "0.5 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "t2.nano",
+        "vcpu": "1 vCPUs\u00a0for a 1h 12m burst",
+        "memory": "0.5 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Low to Moderate",
+        "availability": "Good"
+    },
+    {
+        "name": "t4g.micro",
+        "vcpu": "2 vCPUs\u00a0for a 2h 24m burst",
+        "memory": "1.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "t3a.micro",
+        "vcpu": "2 vCPUs\u00a0for a 2h 24m burst",
+        "memory": "1.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "t3.micro",
+        "vcpu": "2 vCPUs\u00a0for a 2h 24m burst",
+        "memory": "1.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "t2.micro",
+        "vcpu": "1 vCPUs\u00a0for a 2h 24m burst",
+        "memory": "1.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Low to Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "t4g.small",
+        "vcpu": "2 vCPUs\u00a0for a 4h 48m burst",
+        "memory": "2.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "t3a.small",
+        "vcpu": "2 vCPUs\u00a0for a 4h 48m burst",
+        "memory": "2.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "t1.micro",
+        "vcpu": "1 vCPUs",
+        "memory": "0.613 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Very Low",
+        "availability": "Very Good"
+    },
+    {
+        "name": "t3.small",
+        "vcpu": "2 vCPUs\u00a0for a 4h 48m burst",
+        "memory": "2.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "t2.small",
+        "vcpu": "1 vCPUs\u00a0for a 4h 48m burst",
+        "memory": "2.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Low to Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "a1.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "2.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "t4g.medium",
+        "vcpu": "2 vCPUs\u00a0for a 4h 48m burst",
+        "memory": "4.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c6g.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "2.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7g.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "2.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "t3a.medium",
+        "vcpu": "2 vCPUs\u00a0for a 4h 48m burst",
+        "memory": "4.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6gd.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "2.0 GiB",
+        "storage": "59 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m6g.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m7g.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "t3.medium",
+        "vcpu": "2 vCPUs\u00a0for a 4h 48m burst",
+        "memory": "4.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6gn.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "2.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 16 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m1.small",
+        "vcpu": "1 vCPUs",
+        "memory": "1.7 GiB",
+        "storage": "160 GB HDD",
+        "bandwidth": "Low",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6gd.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "59 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7gd.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "2.0 GiB",
+        "storage": "59 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "t2.medium",
+        "vcpu": "2 vCPUs\u00a0for a 4h 48m burst",
+        "memory": "4.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Low to Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6g.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "a1.large",
+        "vcpu": "2 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7a.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "2.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7gd.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "59 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r7g.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r6gd.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "59 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m7a.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7gn.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "2.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m3.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "3.75 GiB",
+        "storage": "4 GB SSD",
+        "bandwidth": "Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "t4g.large",
+        "vcpu": "2 vCPUs\u00a0for a 7h 12m burst",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r7gd.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "59 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c6g.large",
+        "vcpu": "2 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7g.large",
+        "vcpu": "2 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "t3a.large",
+        "vcpu": "2 vCPUs\u00a0for a 7h 12m burst",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7a.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6a.large",
+        "vcpu": "2 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6gd.large",
+        "vcpu": "2 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "118 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m6g.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c5a.large",
+        "vcpu": "2 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7g.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "t3.large",
+        "vcpu": "2 vCPUs\u00a0for a 7h 12m burst",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2gd.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "59 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c5.large",
+        "vcpu": "2 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6i.large",
+        "vcpu": "2 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5a.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5ad.large",
+        "vcpu": "2 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "75 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6a.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6gn.large",
+        "vcpu": "2 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m1.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "3.75 GiB",
+        "storage": "410 GB HDD",
+        "bandwidth": "Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7i.large",
+        "vcpu": "2 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6gd.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "118 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7gd.large",
+        "vcpu": "2 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "118 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "t2.large",
+        "vcpu": "2 vCPUs\u00a0for a 7h 12m burst",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Low to Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7i-flex.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6i.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5d.large",
+        "vcpu": "2 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "50 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m4.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c4.large",
+        "vcpu": "2 vCPUs",
+        "memory": "3.75 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7i.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6id.large",
+        "vcpu": "2 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "118 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6g.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "a1.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7a.large",
+        "vcpu": "2 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5ad.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "75 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c3.large",
+        "vcpu": "2 vCPUs",
+        "memory": "3.75 GiB",
+        "storage": "32 GB (2 * 16 GB SSD)",
+        "bandwidth": "Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7gd.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "118 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r7g.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c5n.large",
+        "vcpu": "2 vCPUs",
+        "memory": "5.25 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5d.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "75 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5a.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6a.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6in.large",
+        "vcpu": "2 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6gd.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "118 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m7a.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6id.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "118 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5n.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7gn.large",
+        "vcpu": "2 vCPUs",
+        "memory": "4.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 30 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r6i.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c1.medium",
+        "vcpu": "2 vCPUs",
+        "memory": "1.7 GiB",
+        "storage": "350 GB HDD",
+        "bandwidth": "Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5ad.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "75 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7i.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m3.large",
+        "vcpu": "2 vCPUs",
+        "memory": "7.5 GiB",
+        "storage": "32 GB SSD",
+        "bandwidth": "Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r4.large",
+        "vcpu": "2 vCPUs",
+        "memory": "15.25 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "t4g.xlarge",
+        "vcpu": "4 vCPUs\u00a0for a 9h 36m burst",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m5dn.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "75 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6g.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r7gd.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "118 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m6in.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5d.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "75 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "is4gen.medium",
+        "vcpu": "1 vCPUs",
+        "memory": "6.0 GiB",
+        "storage": "937 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7g.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r5b.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5n.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "t3a.xlarge",
+        "vcpu": "4 vCPUs\u00a0for a 9h 36m burst",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6id.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "118 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7a.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6a.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6gd.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "237 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c5a.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6g.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "i4g.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "468 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "i3.large",
+        "vcpu": "2 vCPUs",
+        "memory": "15.25 GiB",
+        "storage": "475 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6idn.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "118 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7g.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m5zn.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r3.large",
+        "vcpu": "2 vCPUs",
+        "memory": "15.25 GiB",
+        "storage": "32 GB SSD",
+        "bandwidth": "Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "t3.xlarge",
+        "vcpu": "4 vCPUs\u00a0for a 9h 36m burst",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5dn.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "75 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2gd.large",
+        "vcpu": "2 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "118 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c5.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6i.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i4i.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "468 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5ad.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "150 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5a.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6a.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6gn.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r6in.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m1.large",
+        "vcpu": "2 vCPUs",
+        "memory": "7.5 GiB",
+        "storage": "840 GB (2 * 420 GB HDD)",
+        "bandwidth": "Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7i.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6gd.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "237 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7gd.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "237 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "im4gn.large",
+        "vcpu": "2 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "937 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "t2.xlarge",
+        "vcpu": "4 vCPUs\u00a0for a 5h 24m burst",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7iz.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "z1d.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "75 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7i-flex.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5d.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "100 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6i.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6idn.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "118 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c4.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "7.5 GiB",
+        "storage": "EBS only",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m4.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7i.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6id.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "237 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6g.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "a1.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7a.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5ad.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "150 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c3.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "7.5 GiB",
+        "storage": "80 GB (2 * 40 GB SSD)",
+        "bandwidth": "Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7gd.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "237 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r7g.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c5n.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "10.5 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i3en.large",
+        "vcpu": "2 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "1250 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5d.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "150 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5a.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6in.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 30 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6a.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "inf1.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r6gd.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "237 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m7a.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6id.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "237 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5n.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m2.xlarge",
+        "vcpu": "2 vCPUs",
+        "memory": "17.1 GiB",
+        "storage": "420 GB HDD",
+        "bandwidth": "Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7gn.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 40 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r5.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6i.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5ad.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "150 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7i.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m3.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "15.0 GiB",
+        "storage": "80 GB (2 * 40 GB SSD)",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r4.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "30.5 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "t4g.2xlarge",
+        "vcpu": "8 vCPUs\u00a0for a 9h 36m burst",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m5dn.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "150 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6g.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r7gd.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "237 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m6in.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 30 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5d.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "150 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "is4gen.large",
+        "vcpu": "2 vCPUs",
+        "memory": "12.0 GiB",
+        "storage": "1875 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7g.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 15 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r5b.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5n.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "t3a.2xlarge",
+        "vcpu": "8 vCPUs\u00a0for a 9h 36m burst",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6id.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "237 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7a.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6a.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6gd.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "474 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m6g.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c5a.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i4g.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "937 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "i3.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "30.5 GiB",
+        "storage": "950 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6idn.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "237 GB NVMe SSD",
+        "bandwidth": "Up to 30 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7g.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 15 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m5zn.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "t3.2xlarge",
+        "vcpu": "8 vCPUs\u00a0for a 9h 36m burst",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r3.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "30.5 GiB",
+        "storage": "80 GB SSD",
+        "bandwidth": "Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5dn.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "150 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2gd.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "237 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c6i.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i4i.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "937 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5a.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5ad.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "300 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6gn.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m6a.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6in.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 30 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m1.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "15.0 GiB",
+        "storage": "1680 GB (4 * 420 GB HDD)",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7i.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6gd.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "474 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "inf1.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7gd.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "474 GB NVMe SSD",
+        "bandwidth": "Up to 15 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "im4gn.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "1875 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "t2.2xlarge",
+        "vcpu": "8 vCPUs\u00a0for a 4h 4.8m burst",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7iz.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "z1d.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "150 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g4ad.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "150 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7i-flex.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5d.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "200 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6i.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6idn.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "237 GB NVMe SSD",
+        "bandwidth": "Up to 30 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c4.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "15.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m4.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6id.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "474 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6g.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m7i.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "a1.metal",
+        "vcpu": "16 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "a1.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7a.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5ad.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "300 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c3.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "15.0 GiB",
+        "storage": "160 GB (2 * 80 GB SSD)",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g5g.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "8.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m7gd.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "474 GB NVMe SSD",
+        "bandwidth": "Up to 15 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r7g.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 15 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c5n.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "21.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i3en.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "2500 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5d.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "300 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5a.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6in.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 40 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6a.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6gd.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "474 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m7a.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "h1.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "2000 GB HDD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6id.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "474 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5n.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m2.2xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "34.2 GiB",
+        "storage": "850 GB HDD",
+        "bandwidth": "Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "d3.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "5940 GB (3 * 1980 GB NVMe HDD)",
+        "bandwidth": "Up to 15 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7gn.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 50 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r5.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6i.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c1.xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "7.0 GiB",
+        "storage": "1680 GB (4 * 420 GB HDD)",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5ad.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "300 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "d3en.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "27960 GB (2 * 13980 GB NVMe HDD)",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g4dn.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "125 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7i.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m3.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "30.0 GiB",
+        "storage": "160 GB (2 * 80 GB SSD)",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r4.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "61.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g4ad.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "300 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6g.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m5dn.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "300 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7gd.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "474 GB NVMe SSD",
+        "bandwidth": "Up to 15 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "g5g.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m6in.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 40 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5d.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "300 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "is4gen.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "24.0 GiB",
+        "storage": "3750 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7g.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 15 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r5n.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5b.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6id.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "474 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7a.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6a.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6gd.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "950 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c5a.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6g.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "i4g.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "1875 GB NVMe SSD",
+        "bandwidth": "Up to 12 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "i3.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "61.0 GiB",
+        "storage": "1900 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6idn.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "474 GB NVMe SSD",
+        "bandwidth": "Up to 40 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g2.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "15.0 GiB",
+        "storage": "60 GB SSD",
+        "bandwidth": "Moderate",
+        "availability": "Moderate"
+    },
+    {
+        "name": "vt1.3xlarge",
+        "vcpu": "12 vCPUs",
+        "memory": "24.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "3.12 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m7g.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 15 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m5zn.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r3.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "61.0 GiB",
+        "storage": "160 GB SSD",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2gd.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "475 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r5dn.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "300 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6i.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i4i.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "1875 GB NVMe SSD",
+        "bandwidth": "Up to 12 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5a.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5ad.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "600 GB (2 * 300 GB NVMe SSD)",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "d2.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "30.5 GiB",
+        "storage": "6144 GB (3 * 2048 GB HDD)",
+        "bandwidth": "Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6a.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6gn.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r6in.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 40 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7i.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6gd.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "950 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7gd.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "950 GB NVMe SSD",
+        "bandwidth": "Up to 15 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "im4gn.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "3750 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "z1d.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "300 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7iz.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g3s.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "30.5 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g4dn.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "225 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "inf2.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 15 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m7i-flex.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6i.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5d.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "400 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6idn.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "474 GB NVMe SSD",
+        "bandwidth": "Up to 40 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c4.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "30.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m4.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6id.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "950 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7i.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6g.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7a.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5ad.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "600 GB (2 * 300 GB NVMe SSD)",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g5g.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "x2iedn.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "118 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x1e.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "122.0 GiB",
+        "storage": "120 GB SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c3.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "30.0 GiB",
+        "storage": "320 GB (2 * 160 GB SSD)",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i2.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "30.5 GiB",
+        "storage": "800 GB SSD",
+        "bandwidth": "Moderate",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7gd.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "950 GB NVMe SSD",
+        "bandwidth": "Up to 15 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r7g.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 15 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c5n.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "42.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g4ad.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "600 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "p2.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "61.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i3en.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "5000 GB (2 * 2500 GB NVMe SSD)",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5d.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "600 GB (2 * 300 GB NVMe SSD)",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5a.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6a.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6in.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6gd.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "950 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m7a.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "h1.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "4000 GB (2 * 2000 GB HDD)",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6id.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "950 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5n.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m2.4xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "68.4 GiB",
+        "storage": "1680 GB (2 * 840 GB HDD)",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5zn.3xlarge",
+        "vcpu": "12 vCPUs",
+        "memory": "48.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7gn.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "d3.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "11880 GB (6 * 1980 GB NVMe HDD)",
+        "bandwidth": "Up to 15 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g5.xlarge",
+        "vcpu": "4 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "250 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6i.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5ad.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "600 GB (2 * 300 GB NVMe SSD)",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "d3en.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "55920 GB (4 * 13980 GB NVMe HDD)",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7i.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r4.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "122.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5dn.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "600 GB (2 * 300 GB NVMe SSD)",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6g.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r7gd.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "950 GB NVMe SSD",
+        "bandwidth": "Up to 15 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m6in.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "z1d.3xlarge",
+        "vcpu": "12 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "450 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g3.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "122.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5d.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "600 GB (2 * 300 GB NVMe SSD)",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "is4gen.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "48.0 GiB",
+        "storage": "7500 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7g.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "15 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "inf1.6xlarge",
+        "vcpu": "24 vCPUs",
+        "memory": "48.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r5n.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5b.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g4dn.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "225 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6id.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "950 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g5.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "450 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7a.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6a.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6gd.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "1900 GB NVMe SSD",
+        "bandwidth": "12 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m6g.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c5a.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i4g.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "3750 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "i3.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "122.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6idn.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "950 GB NVMe SSD",
+        "bandwidth": "Up to 50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "vt1.6xlarge",
+        "vcpu": "24 vCPUs",
+        "memory": "48.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "6.25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m7g.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "15 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r3.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "122.0 GiB",
+        "storage": "320 GB SSD",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5dn.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "600 GB (2 * 300 GB NVMe SSD)",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2gd.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "950 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "trn1.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "474 GB NVMe SSD",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "i3en.3xlarge",
+        "vcpu": "12 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "7500 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6i.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g5g.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "i4i.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "3750 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5a.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5ad.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "1200 GB (2 * 600 GB NVMe SSD)",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "d2.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "61.0 GiB",
+        "storage": "12288 GB (6 * 2048 GB HDD)",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6gn.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m6a.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6in.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7i.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6gd.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "1900 GB NVMe SSD",
+        "bandwidth": "12 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7gd.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "1900 GB NVMe SSD",
+        "bandwidth": "15 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "im4gn.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "7500 GB NVMe SSD",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r7iz.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5.9xlarge",
+        "vcpu": "36 vCPUs",
+        "memory": "72.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7i-flex.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6i.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6idn.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "950 GB NVMe SSD",
+        "bandwidth": "Up to 50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c4.8xlarge",
+        "vcpu": "36 vCPUs",
+        "memory": "60.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6id.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "1900 GB NVMe SSD",
+        "bandwidth": "12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7i.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6g.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "g5.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "600 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6g.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "20 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7a.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5ad.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "1200 GB (2 * 600 GB NVMe SSD)",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "f1.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "122.0 GiB",
+        "storage": "470 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "x2iedn.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "237 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2iezn.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x1e.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "244.0 GiB",
+        "storage": "240 GB SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c3.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "60.0 GiB",
+        "storage": "640 GB (2 * 320 GB SSD)",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "hpc7g.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "200 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "hpc7g.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "200 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "hpc7g.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "200 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "i2.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "61.0 GiB",
+        "storage": "1600 GB (2 * 800 GB SSD)",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7gd.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "1900 GB NVMe SSD",
+        "bandwidth": "15 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r7g.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "15 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c5d.9xlarge",
+        "vcpu": "36 vCPUs",
+        "memory": "72.0 GiB",
+        "storage": "900 GB NVMe SSD",
+        "bandwidth": "12 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g4ad.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "1200 GB NVMe SSD",
+        "bandwidth": "15 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7g.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "22.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r5a.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5d.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "1200 GB (2 * 600 GB NVMe SSD)",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6a.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6in.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6a.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "18.75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6gd.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "2850 GB (2 * 1425 GB NVMe SSD)",
+        "bandwidth": "20 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r6gd.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "1900 GB NVMe SSD",
+        "bandwidth": "12 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c5a.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6g.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "20 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m7a.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "h1.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "8000 GB (4 * 2000 GB HDD)",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6id.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "1900 GB NVMe SSD",
+        "bandwidth": "12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5n.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5n.9xlarge",
+        "vcpu": "36 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7g.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "22.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "inf2.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m5zn.6xlarge",
+        "vcpu": "24 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7gn.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "d3.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "23760 GB (12 * 1980 GB NVMe HDD)",
+        "bandwidth": "Up to 15 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m4.10xlarge",
+        "vcpu": "40 vCPUs",
+        "memory": "160.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6i.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6i.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "18.75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5a.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5ad.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "1800 GB (2 * 900 GB NVMe SSD)",
+        "bandwidth": "12 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6gn.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "75 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m6a.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "18.75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5ad.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "1200 GB (2 * 600 GB NVMe SSD)",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "d3en.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "64.0 GiB",
+        "storage": "111840 GB (8 * 13980 GB NVMe HDD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7i.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r4.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "244.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7i.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "18.75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6gd.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "2850 GB (2 * 1425 GB NVMe SSD)",
+        "bandwidth": "20 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "g4dn.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "900 GB NVMe SSD",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6g.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m5dn.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "1200 GB (2 * 600 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6g.metal",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r7gd.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "1900 GB NVMe SSD",
+        "bandwidth": "15 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7gd.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "2850 GB (2 * 1425 GB NVMe SSD)",
+        "bandwidth": "22.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m6in.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "z1d.6xlarge",
+        "vcpu": "24 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "900 GB NVMe SSD",
+        "bandwidth": "12 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g3.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "244.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5d.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "1200 GB (2 * 600 GB NVMe SSD)",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5d.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "1800 GB (2 * 900 GB NVMe SSD)",
+        "bandwidth": "12 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6i.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "18.75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "is4gen.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "15000 GB (2 * 7500 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7g.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "30 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7g.metal",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "30 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r5n.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5b.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6g.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "20 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r6id.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "1900 GB NVMe SSD",
+        "bandwidth": "12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7i.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "18.75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6id.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "2850 GB (2 * 1425 GB NVMe SSD)",
+        "bandwidth": "18.75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7a.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g5.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "900 GB NVMe SSD",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6a.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6gd.metal",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c6gd.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7a.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "18.75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6g.metal",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m6g.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c5a.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "20 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i4g.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "7500 GB (2 * 3750 GB NVMe SSD)",
+        "bandwidth": "18.75 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m5ad.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "1800 GB (2 * 900 GB NVMe SSD)",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i3.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "244.0 GiB",
+        "storage": "7600 GB (4 * 1900 GB NVMe SSD)",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6idn.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "1900 GB NVMe SSD",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7gd.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "2850 GB (2 * 1425 GB NVMe SSD)",
+        "bandwidth": "22.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r7g.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "22.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "g2.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "60.0 GiB",
+        "storage": "240 GB (2 * 120 GB SSD)",
+        "bandwidth": "High",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m7g.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "30 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m7g.metal",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "30 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r3.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "244.0 GiB",
+        "storage": "640 GB (2 * 320 GB SSD)",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5dn.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "1200 GB (2 * 600 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2gd.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "1900 GB NVMe SSD",
+        "bandwidth": "12 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m5d.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "1800 GB (2 * 900 GB NVMe SSD)",
+        "bandwidth": "12 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i3en.6xlarge",
+        "vcpu": "24 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "15000 GB (2 * 7500 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5a.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6i.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6a.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "18.75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6in.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g5g.metal",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "g5g.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "i4i.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "7500 GB (2 * 3750 GB NVMe SSD)",
+        "bandwidth": "18.75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5a.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5ad.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "2400 GB (2 * 1200 GB NVMe SSD)",
+        "bandwidth": "20 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "d2.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "122.0 GiB",
+        "storage": "24576 GB (12 * 2048 GB HDD)",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6gd.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "2850 GB (2 * 1425 GB NVMe SSD)",
+        "bandwidth": "20 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m6a.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6gn.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m7a.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "18.75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6in.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6id.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "2850 GB (2 * 1425 GB NVMe SSD)",
+        "bandwidth": "18.75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7i.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5n.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6gd.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m6gd.metal",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7gd.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "30 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "im4gn.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "15000 GB (2 * 7500 GB NVMe SSD)",
+        "bandwidth": "50 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r7iz.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7gn.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "150 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r5.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6i.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "18.75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5.18xlarge",
+        "vcpu": "72 vCPUs",
+        "memory": "144.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "p3.2xlarge",
+        "vcpu": "8 vCPUs",
+        "memory": "61.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6i.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "20 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6idn.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "1900 GB NVMe SSD",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5ad.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "1800 GB (2 * 900 GB NVMe SSD)",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "d3en.6xlarge",
+        "vcpu": "24 vCPUs",
+        "memory": "96.0 GiB",
+        "storage": "167760 GB (12 * 13980 GB NVMe HDD)",
+        "bandwidth": "40 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7i.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "18.75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m4.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6id.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7i.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6g.metal",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r6g.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m5dn.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "1800 GB (2 * 900 GB NVMe SSD)",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7gd.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "2850 GB (2 * 1425 GB NVMe SSD)",
+        "bandwidth": "22.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c7a.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5ad.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "2400 GB (4 * 600 GB NVMe SSD)",
+        "bandwidth": "12 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "f1.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "244.0 GiB",
+        "storage": "940 GB NVMe SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "x2iedn.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "475 GB NVMe SSD",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x1e.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "488.0 GiB",
+        "storage": "480 GB SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2iezn.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Up to 25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6in.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i2.4xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "122.0 GiB",
+        "storage": "3200 GB (4 * 800 GB SSD)",
+        "bandwidth": "High",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7gd.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "30 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r7g.metal",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "30 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r7g.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "30 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c5d.18xlarge",
+        "vcpu": "72 vCPUs",
+        "memory": "144.0 GiB",
+        "storage": "1800 GB (2 * 900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5d.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "1800 GB (2 * 900 GB NVMe SSD)",
+        "bandwidth": "12 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g4ad.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "2400 GB (2 * 1200 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "cr1.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "244.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "10 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r5n.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5b.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5d.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "2400 GB (4 * 600 GB NVMe SSD)",
+        "bandwidth": "20 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5a.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "12 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6a.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6id.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "2850 GB (2 * 1425 GB NVMe SSD)",
+        "bandwidth": "18.75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6in.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7a.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "18.75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6a.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "37.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6gd.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r6gd.metal",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "c5a.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "20 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7a.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "h1.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "16000 GB (8 * 2000 GB HDD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6id.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5n.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6idn.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "2850 GB (2 * 1425 GB NVMe SSD)",
+        "bandwidth": "75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5n.18xlarge",
+        "vcpu": "72 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5n.metal",
+        "vcpu": "72 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g4dn.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "900 GB NVMe SSD",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5zn.metal",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5zn.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7gn.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "200 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "d3.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "47520 GB (24 * 1980 GB NVMe HDD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2gd.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "2850 GB (2 * 1425 GB NVMe SSD)",
+        "bandwidth": "20 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r5dn.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "1800 GB (2 * 900 GB NVMe SSD)",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6i.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "20 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5.metal",
+        "vcpu": "96 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6i.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "37.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g5.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "1900 GB NVMe SSD",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5ad.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "20 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5a.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "20 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6a.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "37.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6in.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5ad.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "2400 GB (4 * 600 GB NVMe SSD)",
+        "bandwidth": "12 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "d3en.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "128.0 GiB",
+        "storage": "223680 GB (16 * 13980 GB NVMe HDD)",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7i.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r4.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "488.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7i.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "37.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5dn.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "2400 GB (4 * 600 GB NVMe SSD)",
+        "bandwidth": "75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g4dn.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "900 GB NVMe SSD",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7gd.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "30 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m6in.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7iz.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "z1d.metal",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "1800 GB (2 * 900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "z1d.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "1800 GB (2 * 900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g3.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "488.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6i.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "37.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5d.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "3600 GB (4 * 900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5.metal",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c5d.metal",
+        "vcpu": "96 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "3600 GB (4 * 900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5d.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "2400 GB (4 * 600 GB NVMe SSD)",
+        "bandwidth": "20 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "is4gen.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "30000 GB (4 * 7500 GB NVMe SSD)",
+        "bandwidth": "50 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r6idn.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "2850 GB (2 * 1425 GB NVMe SSD)",
+        "bandwidth": "75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "inf1.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r5b.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "20 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5n.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6id.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "5700 GB (4 * 1425 GB NVMe SSD)",
+        "bandwidth": "37.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7i.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "37.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6id.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7a.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6a.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7a.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "37.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i4g.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "15000 GB (4 * 3750 GB NVMe SSD)",
+        "bandwidth": "37.5 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m5ad.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "3600 GB (4 * 900 GB NVMe SSD)",
+        "bandwidth": "20 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i3.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "488.0 GiB",
+        "storage": "15200 GB (8 * 1900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i3.metal",
+        "vcpu": "72 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "15200 GB (8 * 1900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2iezn.6xlarge",
+        "vcpu": "24 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6idn.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "vt1.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r5dn.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "2400 GB (4 * 600 GB NVMe SSD)",
+        "bandwidth": "75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2gd.metal",
+        "vcpu": "64 vCPUs",
+        "memory": "1024.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "x2gd.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "1024.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m5d.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "3600 GB (4 * 900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i3en.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "30000 GB (4 * 7500 GB NVMe SSD)",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5a.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "20 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5d.metal",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "3600 GB (4 * 900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6i.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6i.metal",
+        "vcpu": "128 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6in.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "150 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6a.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "37.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i4i.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "15000 GB (4 * 3750 GB NVMe SSD)",
+        "bandwidth": "37.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "d2.8xlarge",
+        "vcpu": "36 vCPUs",
+        "memory": "244.0 GiB",
+        "storage": "49152 GB (24 * 2048 GB HDD)",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6a.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7a.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "37.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6in.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g5.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "3800 GB NVMe SSD",
+        "bandwidth": "40 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6id.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "5700 GB (4 * 1425 GB NVMe SSD)",
+        "bandwidth": "37.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5n.metal",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5n.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "im4gn.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "30000 GB (4 * 7500 GB NVMe SSD)",
+        "bandwidth": "100 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "r7iz.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5.metal",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6i.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "37.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6i.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6i.metal",
+        "vcpu": "128 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6idn.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5ad.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "3600 GB (4 * 900 GB NVMe SSD)",
+        "bandwidth": "20 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "d3en.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "192.0 GiB",
+        "storage": "335520 GB (24 * 13980 GB NVMe HDD)",
+        "bandwidth": "75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7i.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "37.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6id.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "7600 GB (4 * 1900 GB NVMe SSD)",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6id.metal",
+        "vcpu": "128 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "7600 GB (4 * 1900 GB NVMe SSD)",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "inf2.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "m5dn.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "3600 GB (4 * 900 GB NVMe SSD)",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m5dn.metal",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "3600 GB (4 * 900 GB NVMe SSD)",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7a.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x1.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "976.0 GiB",
+        "storage": "1920 GB SSD",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2iedn.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "1024.0 GiB",
+        "storage": "950 GB NVMe SSD",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2idn.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "1024.0 GiB",
+        "storage": "1900 GB NVMe SSD",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x1e.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "976.0 GiB",
+        "storage": "960 GB SSD",
+        "bandwidth": "Up to 10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2iezn.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "1024.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6in.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "150 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i2.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "244.0 GiB",
+        "storage": "6400 GB (8 * 800 GB SSD)",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5d.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "3600 GB (4 * 900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5d.metal",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "3600 GB (4 * 900 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5n.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5b.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5n.metal",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5b.metal",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "p2.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "488.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6id.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "5700 GB (4 * 1425 GB NVMe SSD)",
+        "bandwidth": "37.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6in.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "200 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6a.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "1024.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6in.metal",
+        "vcpu": "128 vCPUs",
+        "memory": "256.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "200 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7a.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "37.5 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6a.48xlarge",
+        "vcpu": "192 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c6a.metal",
+        "vcpu": "192 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7a.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6id.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "7600 GB (4 * 1900 GB NVMe SSD)",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6id.metal",
+        "vcpu": "128 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "7600 GB (4 * 1900 GB NVMe SSD)",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6idn.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "5700 GB (4 * 1425 GB NVMe SSD)",
+        "bandwidth": "150 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g4dn.metal",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "1800 GB (2 * 900 GB NVMe SSD)",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5dn.metal",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "3600 GB (4 * 900 GB NVMe SSD)",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r5dn.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "3600 GB (4 * 900 GB NVMe SSD)",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6i.metal",
+        "vcpu": "128 vCPUs",
+        "memory": "1024.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6i.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "1024.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g5.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "3800 GB NVMe SSD",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6a.48xlarge",
+        "vcpu": "192 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6a.metal",
+        "vcpu": "192 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6in.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "150 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7i.48xlarge",
+        "vcpu": "192 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6in.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "200 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6in.metal",
+        "vcpu": "128 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "200 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6idn.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "5700 GB (4 * 1425 GB NVMe SSD)",
+        "bandwidth": "150 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6id.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "1024.0 GiB",
+        "storage": "7600 GB (4 * 1900 GB NVMe SSD)",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6id.metal",
+        "vcpu": "128 vCPUs",
+        "memory": "1024.0 GiB",
+        "storage": "7600 GB (4 * 1900 GB NVMe SSD)",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7i.48xlarge",
+        "vcpu": "192 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7a.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "1024.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7a.metal-48xl",
+        "vcpu": "192 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "c7a.48xlarge",
+        "vcpu": "192 vCPUs",
+        "memory": "384.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2idn.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "1536.0 GiB",
+        "storage": "2850 GB (2 * 1425 GB NVMe SSD)",
+        "bandwidth": "75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2iezn.12xlarge",
+        "vcpu": "48 vCPUs",
+        "memory": "1536.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2iezn.metal",
+        "vcpu": "48 vCPUs",
+        "memory": "1536.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6idn.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "7600 GB (4 * 1900 GB NVMe SSD)",
+        "bandwidth": "200 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m6idn.metal",
+        "vcpu": "128 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "7600 GB (4 * 1900 GB NVMe SSD)",
+        "bandwidth": "200 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i3en.metal",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "60000 GB (8 * 7500 GB NVMe SSD)",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i3en.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "60000 GB (8 * 7500 GB NVMe SSD)",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6a.48xlarge",
+        "vcpu": "192 vCPUs",
+        "memory": "1536.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6a.metal",
+        "vcpu": "192 vCPUs",
+        "memory": "1536.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i4i.metal",
+        "vcpu": "128 vCPUs",
+        "memory": "1024.0 GiB",
+        "storage": "30000 GB (8 * 3750 GB NVMe SSD)",
+        "bandwidth": "75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "i4i.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "1024.0 GiB",
+        "storage": "30000 GB (8 * 3750 GB NVMe SSD)",
+        "bandwidth": "75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7a.metal-48xl",
+        "vcpu": "192 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "m7a.48xlarge",
+        "vcpu": "192 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6in.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "1024.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "200 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6in.metal",
+        "vcpu": "128 vCPUs",
+        "memory": "1024.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "200 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7iz.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "1024.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "p3.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "244.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6idn.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "1024.0 GiB",
+        "storage": "7600 GB (4 * 1900 GB NVMe SSD)",
+        "bandwidth": "200 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r6idn.metal",
+        "vcpu": "128 vCPUs",
+        "memory": "1024.0 GiB",
+        "storage": "7600 GB (4 * 1900 GB NVMe SSD)",
+        "bandwidth": "200 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7i.48xlarge",
+        "vcpu": "192 vCPUs",
+        "memory": "1536.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "inf2.48xlarge",
+        "vcpu": "192 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "dl1.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "4000 GB (4 * 1000 GB NVMe SSD)",
+        "bandwidth": "4x 100 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "f1.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "976.0 GiB",
+        "storage": "3760 GB (4 * 940 GB NVMe SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "x2idn.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "2048.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x1.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "1952.0 GiB",
+        "storage": "3840 GB (2 * 1920 GB SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2iedn.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "2048.0 GiB",
+        "storage": "1900 GB NVMe SSD",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2idn.metal",
+        "vcpu": "128 vCPUs",
+        "memory": "2048.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x1e.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "1952.0 GiB",
+        "storage": "1920 GB SSD",
+        "bandwidth": "10 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "p2.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "732.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7a.48xlarge",
+        "vcpu": "192 vCPUs",
+        "memory": "1536.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "r7a.metal-48xl",
+        "vcpu": "192 vCPUs",
+        "memory": "1536.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "g5.48xlarge",
+        "vcpu": "192 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "7600 GB (2 * 3800 GB NVMe SSD)",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2iedn.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "3072.0 GiB",
+        "storage": "2850 GB (2 * 1425 GB NVMe SSD)",
+        "bandwidth": "75 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "trn1.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "7600 GB (4 * 1900 GB NVMe SSD)",
+        "bandwidth": "8x 100 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "p3.16xlarge",
+        "vcpu": "64 vCPUs",
+        "memory": "488.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "trn1n.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "512.0 GiB",
+        "storage": "7600 GB (4 * 1900 GB NVMe SSD)",
+        "bandwidth": "16x 100 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "x2iedn.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "4096.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x2iedn.metal",
+        "vcpu": "128 vCPUs",
+        "memory": "4096.0 GiB",
+        "storage": "3800 GB (2 * 1900 GB NVMe SSD)",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "x1e.32xlarge",
+        "vcpu": "128 vCPUs",
+        "memory": "3904.0 GiB",
+        "storage": "3840 GB (2 * 1920 GB SSD)",
+        "bandwidth": "25 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "u-3tb1.56xlarge",
+        "vcpu": "224 vCPUs",
+        "memory": "3072.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "50 Gigabit",
+        "availability": "Good"
+    },
+    {
+        "name": "p3dn.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "768.0 GiB",
+        "storage": "1800 GB (2 * 900 GB NVMe SSD)",
+        "bandwidth": "100 Gigabit",
+        "availability": "Very Good"
+    },
+    {
+        "name": "p4d.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "1152.0 GiB",
+        "storage": "8000 GB (8 * 1000 GB NVMe SSD)",
+        "bandwidth": "4x 100 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "p4de.24xlarge",
+        "vcpu": "96 vCPUs",
+        "memory": "1152.0 GiB",
+        "storage": "8000 GB (8 * 1000 GB NVMe SSD)",
+        "bandwidth": "400 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "u-6tb1.56xlarge",
+        "vcpu": "224 vCPUs",
+        "memory": "6144.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Good"
+    },
+    {
+        "name": "u-6tb1.112xlarge",
+        "vcpu": "448 vCPUs",
+        "memory": "6144.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Good"
+    },
+    {
+        "name": "u-9tb1.112xlarge",
+        "vcpu": "448 vCPUs",
+        "memory": "9216.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Good"
+    },
+    {
+        "name": "p5.48xlarge",
+        "vcpu": "192 vCPUs",
+        "memory": "2048.0 GiB",
+        "storage": "30400 GB (8 * 3800 GB NVMe SSD)",
+        "bandwidth": "3200 Gigabit",
+        "availability": "Moderate"
+    },
+    {
+        "name": "u-12tb1.112xlarge",
+        "vcpu": "448 vCPUs",
+        "memory": "12288.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Good"
+    },
+    {
+        "name": "u-18tb1.112xlarge",
+        "vcpu": "448 vCPUs",
+        "memory": "18432.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Good"
+    },
+    {
+        "name": "u-24tb1.112xlarge",
+        "vcpu": "448 vCPUs",
+        "memory": "24576.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Good"
+    },
+    {
+        "name": "u-12tb1.metal",
+        "vcpu": "448 vCPUs",
+        "memory": "12288.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Poor"
+    },
+    {
+        "name": "u-18tb1.metal",
+        "vcpu": "448 vCPUs",
+        "memory": "18432.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Poor"
+    },
+    {
+        "name": "u-6tb1.metal",
+        "vcpu": "448 vCPUs",
+        "memory": "6144.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Poor"
+    },
+    {
+        "name": "u-24tb1.metal",
+        "vcpu": "448 vCPUs",
+        "memory": "24576.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Poor"
+    },
+    {
+        "name": "u-9tb1.metal",
+        "vcpu": "448 vCPUs",
+        "memory": "9216.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "100 Gigabit",
+        "availability": "Poor"
+    },
+    {
+        "name": "hs1.8xlarge",
+        "vcpu": "16 vCPUs",
+        "memory": "117.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "10 Gigabit",
+        "availability": "Poor"
+    },
+    {
+        "name": "cc2.8xlarge",
+        "vcpu": "32 vCPUs",
+        "memory": "60.5 GiB",
+        "storage": "EBS only",
+        "bandwidth": "10 Gigabit",
+        "availability": "Poor"
+    },
+    {
+        "name": "mac2.metal",
+        "vcpu": "12 vCPUs",
+        "memory": "16.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "10 Gigabit",
+        "availability": "Poor"
+    },
+    {
+        "name": "mac2-m2.metal",
+        "vcpu": "12 vCPUs",
+        "memory": "24.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "10 Gigabit",
+        "availability": "Poor"
+    },
+    {
+        "name": "i2.large",
+        "vcpu": "2 vCPUs",
+        "memory": "15.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "Moderate",
+        "availability": "Poor"
+    },
+    {
+        "name": "mac1.metal",
+        "vcpu": "12 vCPUs",
+        "memory": "32.0 GiB",
+        "storage": "EBS only",
+        "bandwidth": "25 Gigabit",
+        "availability": "Poor"
+    }
+]
