@@ -1,12 +1,11 @@
 '''
 Author: Sarvesh More and Julekha Khatoon
 Date: 2024-11-01
-Description: 3 will be given a very large list of AWS EC2 instances and (probably) some incomplete code to load and/or parse through the file.
-For this exercise, we are going to make a console-based application where a user can enter their minimum required CPU cores (and, optionally, a maximum) 
-and their minimum required memory in GiB (and, optionally, a maximum),
-and then display to the user a list of all AWS EC2 instance types that support their needs.
-In this simulation, the user will request cloud resources and your program will determine if the requested resources are available
-based on some limit that is defined.
+Description: This script filters AWS EC2 instance types based on user-defined 
+requirements for CPU cores and memory. Users can input minimum 
+and optional maximum values, and the program displays matching 
+instances from a JSON file in a user-friendly format.
+
 
 '''
 
