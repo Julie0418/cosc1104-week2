@@ -1,0 +1,18 @@
+[
+    {
+        "BucketName": "assignment-3-julie-bucket",
+        "Issues": [
+            "Block public access is not enabled for this bucket.",
+            "Bucket logging is not enabled",
+            "MFA Delete is not enabled"
+        ]
+    },
+    {
+        "BucketName": "second-bucket-julie",
+        "Issues": [
+            "Bucket versioning is not enabled",
+            "Bucket logging is not enabled",
+            "MFA Delete is not enabled"
+        ]
+    }
+]

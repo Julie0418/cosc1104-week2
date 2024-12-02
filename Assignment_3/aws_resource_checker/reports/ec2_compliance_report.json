@@ -1,0 +1,18 @@
+[
+    {
+        "InstanceId": "i-0e1d0b7e91897d014",
+        "Issues": [
+            "Instance i-0e1d0b7e91897d014 is not using the recommended AMI.",
+            "Instance i-0e1d0b7e91897d014 has unrestricted access in security group sg-04937852c3ae13d85.",
+            "Instance i-0e1d0b7e91897d014 is not properly tagged with 'Name'."
+        ]
+    },
+    {
+        "InstanceId": "i-00710771053ebd181",
+        "Issues": [
+            "Instance i-00710771053ebd181 is not using the recommended AMI.",
+            "Instance i-00710771053ebd181 has unrestricted access in security group sg-0fd9d09ae8ce53316.",
+            "Instance i-00710771053ebd181 does not have an associated key pair."
+        ]
+    }
+]

@@ -5,6 +5,7 @@ from utils import log_message
 def fetch_compliance_rules(service):
     """
     Fetches compliance rules dynamically for the given AWS service.
+    Falls back to static rules if scraping fails.
     """
     urls = {
         "s3": "https://www.trendmicro.com/cloudoneconformity/knowledge-base/aws/S3/",
@@ -16,16 +17,20 @@ def fetch_compliance_rules(service):
         return []
 
     try:
-        response = requests.get(urls[service])
+        log_message(f"Fetching compliance rules for {service} from {urls[service]}...")
+        response = requests.get(urls[service], headers={"User-Agent": "Mozilla/5.0"})
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # Extract compliance rules (example: headings and descriptions)
+        # Extract compliance rules for S3 based on the provided content structure
         rules = []
-        for item in soup.find_all("div", class_="compliance-rule"):
-            title = item.find("h3").get_text(strip=True)
-            description = item.find("p").get_text(strip=True)
-            rules.append({"title": title, "description": description})
+        for rule in soup.find_all("li"):
+            title = rule.get_text(strip=True)
+            if title:
+                rules.append({
+                    "title": title,
+                    "description": "Refer to AWS documentation for details."
+                })
 
         log_message(f"Fetched {len(rules)} compliance rules for {service}.")
         return rules
